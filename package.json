@@ -1,12 +1,12 @@
 {
   "name": "cloudlink-server",
   "version": "1.0.0",
-  "description": "Simple Cloudlink server",
+  "description": "Very simple WebSocket server for TurboWarp CloudLink",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "cloudlink": "^4.3.0"
+    "ws": "^8.18.0"
   }
 }
